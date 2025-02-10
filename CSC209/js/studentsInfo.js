@@ -1,0 +1,22 @@
+const STUDENT_SITES= {
+"Andrea"    : "https://amartinez-69.github.io/CSC209/startPage.html", 
+"Andrew"    : "#", 
+"Bintu"     : "#", 
+"Chris"     : "https://wu-chris.github.io/CSC209/startPage.html", 
+"Erin"      : "https://eelizabethriley.github.io/CSC209/startPage.html", 
+"Hillary"   : "https://hillarydunkley16.github.io/CSC209_Class/CSC209/startPage.html", 
+"Jade"      : "https://gemstone496.github.io/CSC209/startPage.html",
+"Karen"     : "#", 
+"Katie"     : "#", 
+"Matheus"   : "https://mcdasilva.github.io/CSC209/startPage.html", 
+"Michelle"  : "https://lawsonm525.github.io/CSC209/startPage.html",
+"Mikayle"   : "#", 
+"Rachel A"  : "https://rachaelan1.github.io/CSC209/startPage.html", 
+"Rachel K"  : "https://rkunkel05.github.io/CSC209/startPage.html", 
+"Sophia"    : "#", 
+"Susie"     : "https://susieh33.github.io/CSC209/startPage.html", 
+"Yijing"    : "https://yijingyin.github.io/CSC209/startPage.html", 
+"Yuzhang"   : "#", 
+"Lynne"     : "#", 
+"Zihan"     : "https://zihanlyu.github.io/CSC209/startPage.html"
+}

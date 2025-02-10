@@ -1,0 +1,14 @@
+/* To remove default browser styling */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.student-icon {
+  width: 30%;
+  height: auto;
+}
+body {
+  font-family: 'Courier New', monospace;
+  background-color: lavender;
+}

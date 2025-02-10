@@ -1,0 +1,29 @@
+/*Based on :
+https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+  max-width: 50%;
+  height: auto;
+  font-size:2vw;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  border-radius: 12px;
+  color: white;
+}

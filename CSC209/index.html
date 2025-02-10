@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSC209</title>
+  <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navBar.css">
+</head>
+<body>
+
+
+  <ul id="student-nav"></ul>
+  <!-- <div id="background"></div> -->
+
+
+  <script src="js/studentsInfo.js"></script>
+  <script src="js/createLinks.js"></script>
+  <script>
+    const LINK_TEMPLATE = "<li><a href='LINK'> <img class='student-icon' src='Images/icons/ICON.png' /> NAME </a></li>";
+    const LINKS_DIV = document.getElementById("student-nav");
+    createStudentLinks(LINKS_DIV, STUDENT_SITES);
+  </script>
+
+</body>
+</html>
