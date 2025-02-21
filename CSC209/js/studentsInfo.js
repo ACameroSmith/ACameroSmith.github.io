@@ -6,7 +6,7 @@ const STUDENT_SITES= {
 "Erin"      : "https://eelizabethriley.github.io/CSC209/startPage.html", 
 "Hillary"   : "https://hillarydunkley16.github.io/CSC209_Class/CSC209/startPage.html", 
 "Jade"      : "https://gemstone496.github.io/CSC209/start_page.html",
-"Karen"     : "#", 
+"Karen"     : "https://kvg-png.github.io/CSC209/CSC209/startPage.html", 
 "Katie"     : "https://kat1ev.github.io/209/Weeks/Week1/homePage.html", 
 "Matheus"   : "https://mcdasilva.github.io/CSC209/startPage.html", 
 "Michelle"  : "https://lawsonm525.github.io/startPage.html",
