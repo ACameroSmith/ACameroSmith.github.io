@@ -11,7 +11,7 @@ const STUDENT_SITES= {
 "Matheus"   : "https://mcdasilva.github.io/CSC209/StartPage/startPage.html", 
 "Michelle"  : "https://lawsonm525.github.io/startPage.html",
 "Mikayle"   : "https://mikayledesp.github.io/CSC209/startPage.html", 
-"Rachel A"  : "https://rachaelan1.github.io/CSC209/startPage.html", 
+"Rachael A"  : "https://rachaelan1.github.io/CSC209/startPage.html", 
 "Rachel K"  : "https://rkunkel05.github.io/CSC209/startPage.html", 
 "Sophia"    : "#", 
 "Susie"     : "https://susieh33.github.io/CSC209/startPage.html", 
