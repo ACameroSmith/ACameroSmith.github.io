@@ -17,6 +17,6 @@ const STUDENT_SITES= {
 "Susie"     : "https://susieh33.github.io/CSC209/startPage.html", 
 "Yijing"    : "https://yijingyin.github.io/CSC209/startPage.html", 
 "Yuzhang"   : "https://yuzfu.github.io/CSC209/startPage.html", 
-"Lynne"     : "#", 
+"Lynne"     : "https://lynnelzr.github.io/CSC209/startPage.html", 
 "Zihan"     : "https://zihanlyu.github.io/CSC209/startPage.html"
 }
