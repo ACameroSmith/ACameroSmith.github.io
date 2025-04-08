@@ -1,0 +1,15 @@
+Work in today's Lab<?=  $LABTHID?> folder (located in Week<?=  $WEEKID?>). Design a small html+php page <i>whereami.php</i> which starts as an empty html template with a simple text in it: <pre>This page figures out its whereabouts</pre>
+			You will place php code in the head of the html file, to execute the following steps:
+				
+			<ul>
+				<li>It finds the <i>path</i> to the current folder (where the page is located), by invoking a php function. <b>Hint:</b> try <i>realpath</i>.</li>
+				<li>It extracts the <i>basename</i>. It should return a string indicating the folder in which you have placed the file, namely <i>Lab<?=  $LABTHID?></i>.</li>
+				<li>It extracts the number at the end of the basename (should be the string "<?=  $LABTHID?>"). For this exercise, you may hardcode how many characters at the end of the basename are extracted. Store the numeric string into a php variable named <i>labNrString</i> (remember that it has to start with a dollar sign; from now on, I'll stop reminding you this important fact that can otherwise cause a lot of debugging headaches). </li>
+				<li>Next, your php code checks that the characters of the string are digits. If so, then you convert the string to an integer, and store it into a php variable <i>labNr</i>. <b>Hint:</b> Use the functions from the examples given in the  strings and numbers in php from W3 schools php tutorial.	
+				</li>						
+				<li>Finally, the html page uses the just computed value in a simple paragraph in the body with the message:
+					<pre>My lab number is XX</pre>
+					where XX is the value of the php labNr variable. 
+				</li>				 
+			</ul>
+						
