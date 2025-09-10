@@ -2,24 +2,29 @@
 https://www.w3schools.com/css/css_navbar_horizontal.asp*/
 ul {
   list-style-type: none;
-  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
   padding: 0px;
+  padding-left: 10px;
   background-color: transparent;
 }
 
 li {
-  float: left;
+  display: flex;
+  align-items: center;
   max-width: 50%;
   height: auto;
   font-size:2vw;
 }
 
 li a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  color: black;
+  padding: 14px 16px;
 }
 
 li a:hover {

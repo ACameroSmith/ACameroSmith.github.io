@@ -5,8 +5,9 @@
   margin: 0;
 }
 .student-icon {
-  width: 30%;
-  height: auto;
+  width: 300px;
+  height: 250px;
+  margin-right: 8px;
 }
 body {
   font-family: 'Courier New', monospace;
