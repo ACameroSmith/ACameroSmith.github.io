@@ -5,22 +5,36 @@
   <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/navBar.css">
+  <link rel="stylesheet" href="css/cursor.css">
+  <link rel="stylesheet" href="css/tooltip.css">
 </head>
 <body>
 
-
   <ul id="student-nav"></ul>
-  <!-- <div id="background"></div> -->
 
 
   <script src="js/studentsInfo.js"></script>
   <script src="js/createLinks.js"></script>
+  <script src="js/listeners.js"></script>
   <script>
     const LINK_TEMPLATE =
-      "<li><a href='LINK'>\
+      "<li class='student'><a href='LINK'>\
         <img class='student-icon' src='Images/DarkIcons/ICON.png' data-hover=='Images/LightIcons/ICON.png' />\
         NAME\
       </a></li>";
+    const RESOURCES_TEMPLATE =
+      "<li><div class='tooltip'>Site Inspiration &#9432;\
+          <ul class='tooltiptext'>\
+            <li><a href='https://www.canva.com/'>Images Source</a></li>\
+            <li><a href='https://www.w3schools.com/css/css_navbar_horizontal.asp'>Button Organization (Horizontal Navbar)</a></li>\
+            <li><a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>Hover (HTML Events)</a></li>\
+            <li><a href='https://www.w3schools.com/cssref/pr_class_cursor.php'>Custom Cursor (Cursor Url Example)</a></li>\
+            <li><a href='https://www.w3schools.com/css/css_tooltip.asp'>Inspiration Button (Tooltip)</a></li>\
+            <li><a href='https://www.w3schools.com/charsets/ref_utf_enclosed_alpha.asp'>&#9432 (Unicode Symbols)</a></li>\
+          </ul>\
+      </div></li>";
+
+
     const LINKS_DIV = document.getElementById("student-nav");
     createStudentLinks(LINKS_DIV, STUDENT_SITES);
     setListeners(LINKS_DIV);

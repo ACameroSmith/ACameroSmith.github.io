@@ -1,7 +1,8 @@
-/*Based on :
-https://www.w3schools.com/css/css_navbar_horizontal.asp*/
 ul {
   list-style-type: none;
+}
+
+#student-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -11,7 +12,7 @@ ul {
   background-color: transparent;
 }
 
-li {
+#student-nav li {
   display: flex;
   align-items: center;
   max-width: 50%;
@@ -19,15 +20,19 @@ li {
   font-size:2vw;
 }
 
-li a {
+#student-nav li a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 14px 16px;
 }
 
-li a:hover {
+#student-nav li.student a {
+  color: black;
+}
+
+#student-nav li a:hover {
   background-color: #555;
   border-radius: 12px;
   color: white;

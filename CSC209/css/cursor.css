@@ -1,0 +1,8 @@
+/*To change default cursor style*/
+body {
+  cursor: url(../Images/cursors/cursor1.png), auto;
+}
+
+a:hover, button:hover {
+  cursor: url(../Images/cursors/cursor2.png), auto;
+}
