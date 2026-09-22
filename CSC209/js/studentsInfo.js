@@ -1,7 +1,7 @@
 const STUDENT_SITES= {
 "Ani"    	: "https://abrunourena.github.io/CSC209/main.html", 
 "Aryn"    	: "https://arynvarris.github.io/CSC209/Hw1/home.html", 
-"Catherine" : "https://catherinetweeks.github.io/CSC209/Weeks/Week1/Hw1/main.html", 
+"Catherine" : "https://catherinetweeks.github.io/CSC209/main.html", 
 "Jennifer" 	: "https://jen927.github.io/CSC209/main.html",  
 "Jode" 		: "", 
 "Kylie" 	: "https://kylieeecaveee.github.io/CSC209/Week1/HomeworkOne/main.html", 
