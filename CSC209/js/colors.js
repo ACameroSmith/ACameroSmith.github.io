@@ -1,6 +1,8 @@
-//From https://colorswall.com/palette/164436
-const COLORS = [
-	"#e71d43", "#ff0000", "#ff3700", "#ff6e00", "#ffa500",
-	"#ffc300", "#ffe100", "#ffff00", "#aad500", "#55aa00",
-	"#008000", "#005555", "#002baa", "#0000ff", "#1900d5",
-	"#3200ac", "#4b0082", "#812ba6", "#b857ca", "#d03a87"];
+const BG_COLORS = [
+	'lavender',
+	'#FFDFD3', // Pastel Peach / Apricot
+	'#FFF2CC', // Soft Pastel Yellow
+	'#E2F0D9', // Mint / Pale Green
+	'#D9EAD3', // Sage Tint
+	'#C9DAF8'  // Baby Blue / Soft Cyan
+];

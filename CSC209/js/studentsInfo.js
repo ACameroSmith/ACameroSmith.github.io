@@ -11,4 +11,4 @@ const STUDENT_SITES= {
 "Tabz" 		: "https://githinjitabz1.github.io/CSC209/main.html"
 }
 //random integers in [1,20] that give the number of the image to use
-let RANDOM_NUMS = [14, 3, 19, 4, 1, 12, 20, 15, 17, 9];
+let RANDOM_NUMS = [14, 3, 19, 4, 7, 12, 20, 15, 17, 9];
